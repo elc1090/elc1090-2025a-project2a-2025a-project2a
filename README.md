@@ -3,7 +3,6 @@
 ### Imagem do projeto
 <img src="assets/project-img.png"/>
 
-
 ### Acesso
 [github.api.com.br](https://elc1090.github.io/project2a-2025a-Dionatan2019Rodrigues/)
 
@@ -18,6 +17,7 @@ Projeto que consome a API do GitHub para listar repositórios de um usuário, co
 
 - **HTML**: Estruturação do site.
 - **Bootstrap**: Utilizado para uso de classes estilisadas.
+- **Javascript**: Utilizado para fazer a requisição da API do GitHub e as manipulações de eventos no sistema.
 - **Git**: Utilizado no versionamento de todo projeto.
 
 #### Ambiente de desenvolvimento
