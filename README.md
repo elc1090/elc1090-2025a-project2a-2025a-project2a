@@ -1,44 +1,33 @@
-# Projeto2a: GitHub API e DOM Manipulation
+# Projeto: GitHub API - Refatoração
 
-> 1. Baixe este arquivo e edite o texto em formato Markdown conforme as instruções a seguir.
-> 2. Substitua todos os blocos "Preencha aqui" por informações do seu projeto. 
-> 3. Substitua a imagem por pelo menos um screenshot do projeto (arquivo pode ser armazenado no repositório ou em URL externa). GIFs animados também são permitidos!
-> 4. Remova todas as instruções de entrega.
-> 5. Double-check: Certifique-se de que seu README.md não contenha instruções de entrega!
-> 6. Entregue este README.md dentro da pasta raiz do repositório de entrega. 
+### Imagem do projeto
+<img src="assets/project-img.png"/>
 
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
+### Acesso
+[github.api.com.br](https://elc1090.github.io/project2a-2025a-Dionatan2019Rodrigues/)
 
+### Desenvolvedor(a)
+Dionatan Eduardo Correa Rodrigues - Ciência da Computação
 
-#### Deploy
+#### Descrição
 
-Preencha aqui a URL para acesso ao site publicado
+Projeto que consome a API do GitHub para listar repositórios de um usuário, com limite personalizável. Permite também selecionar um repositório específico para exibir as mensagens e datas dos commits mais recentes. Interface com estilo renovado e formulário interativo. Projeto adaptado e disponível em deploy.
 
+#### Tecnologias
 
-#### Desenvolvedor(a)
-
-Preencha aqui seu nome
-
+- **HTML**: Estruturação do site.
+- **Bootstrap**: Utilizado para uso de classes estilisadas.
+- **Javascript**: Utilizado para fazer a requisição da API do GitHub e as manipulações de eventos no sistema.
+- **Git**: Utilizado no versionamento de todo projeto.
 
 #### Ambiente de desenvolvimento
 
-Preencha aqui uma lista detalhada de ferramentas de desenvolvimento usadas, por exemplo:
-- VS Code
-- Outras
-
-#### Créditos
-
-Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- URL de tutoriais/vídeos consultados
-- Créditos para colegas que colaboraram
-
-
-#### Bastidores
-
-
-Preencha aqui um breve relato dos bastidores da realização deste exercício, com suas impressões.
-
-
-
+- **VS Code + extenções**: IDE utilizada no desenvolvimento com auxílio de algumas extensões.
+- **(extensão)Live Server**: Tem a funcionalidade de gerar um servidor local e auto recarregável.
+- **(extensão)Prettier Code formatter**: Formatador de código fornecendo um padrão estabelecido.
+- **(extensão)Gitmoji**: Auxilia na padronização de commits.
+- **(extensão)Auto Rename tag**: Renomeia a tag de fechamento HTML simultaneamente a escrita da tag de abertura.
+- **(extensão)Markdown Preview Github Styling**: Cria uma segunda aba dentro do VSCODE para a vizualização do README durante a criação facilitando o desenvolvimento do mesmo.
 ---
+
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2025a) em 2025a
