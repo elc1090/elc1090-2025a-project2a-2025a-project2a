@@ -5,6 +5,9 @@
     <title>GitHub API</title>
     <link rel="icon" type="image/png" href="assets/favicon.ico" />
 
+    <!-- Adicionando o Tailwind no arquivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- Import the Bootstrap CSS CDN -->
     <link
       rel="stylesheet"
@@ -15,29 +18,26 @@
   </head>
 
   <body>
-    <h3 class="text-center mt-5">
+    <h3 class=" flex justify-center mt-4 p-4 font-medium text-[25px] " >
       GitHub API - <span class="text-info">Dionatan Style</span>
     </h3>
     <form
       id="gitHubForm"
-      class="form-inline d-flex justify-content-center mx-auto"
-      style="width: 800px"
+      class="form-inline flex justify-center"
     >
       <input
         id="usernameInput"
-        class="form-control mb-5 ml-1"
+        class="form-control mb-5 ml-1 w-[150px]"
         type="text"
         name="username"
         placeholder="GitHub Username"
-        style="width: 200px;"
       />
       <input
             id="limitInput"
-            class="form-control mb-5 mx-2"
+            class="form-control mb-5 mx-2 w-[200px]"
             type="number"
             name="quantidade"
             placeholder="Limite de repositórios"
-            style="width: 200px;"
           />
       <input
         type="submit"
@@ -47,8 +47,7 @@
     </form>
     <ul
       id="userRepos"
-      class="list-group mx-auto mb-5"
-      style="width: 600px"
+      class="list-group mx-auto mb-5 w-[450px]"
     ></ul>
     <script src="app.js"></script>
   </body>
