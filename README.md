@@ -4,7 +4,7 @@
 
 #### Deploy
 
-[Preencha aqui a URL para acesso ao site publicado](https://githubshowcommits.netlify.app/)
+https://githubshowcommits.netlify.app/
 
 
 #### Desenvolvedor(a)
