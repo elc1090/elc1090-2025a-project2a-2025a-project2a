@@ -1,4 +1,4 @@
-# Projeto2a: GitHub API e DOM Manipulation: GitHub Commits
+# Projeto2a: GitHub API e DOM Manipulation - GitHub Commits
 
 ![image](https://github.com/user-attachments/assets/db582f30-c1c3-4905-97ce-c00b69c2740c)
 
