@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Commits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="assets/github.png" alt="GitHub Logo" class="logo">
+    <h2>GitHub Commits</h2>
+  </header>
+
+  <form id="commitForm">
+    <input type="text" id="usernameInput" placeholder="Usuário do GitHub" required>
+    <input type="text" id="repoInput" placeholder="Nome do repositório" required>
+    <button type="submit">Buscar Commits</button>
+  </form>
+
+  <ul id="commitList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
