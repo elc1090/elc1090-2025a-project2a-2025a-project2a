@@ -1,42 +1,32 @@
-# Projeto2a: GitHub API e DOM Manipulation
+# Projeto2a: GitHub API e DOM Manipulation - GitHub Commits
 
-> 1. Baixe este arquivo e edite o texto em formato Markdown conforme as instruções a seguir.
-> 2. Substitua todos os blocos "Preencha aqui" por informações do seu projeto. 
-> 3. Substitua a imagem por pelo menos um screenshot do projeto (arquivo pode ser armazenado no repositório ou em URL externa). GIFs animados também são permitidos!
-> 4. Remova todas as instruções de entrega.
-> 5. Double-check: Certifique-se de que seu README.md não contenha instruções de entrega!
-> 6. Entregue este README.md dentro da pasta raiz do repositório de entrega. 
-
-![Screenshot do projeto](https://mdswanson.com/static/chops-ux-step-4.png "Screenshot do projeto").
-
+![image](https://github.com/user-attachments/assets/db582f30-c1c3-4905-97ce-c00b69c2740c)
 
 #### Deploy
 
-Preencha aqui a URL para acesso ao site publicado
+https://githubshowcommits.netlify.app/
 
 
 #### Desenvolvedor(a)
 
-Preencha aqui seu nome
+Leonardo Garcia Balk
 
 
 #### Ambiente de desenvolvimento
 
-Preencha aqui uma lista detalhada de ferramentas de desenvolvimento usadas, por exemplo:
 - VS Code
-- Outras
+
 
 #### Créditos
 
-Preencha aqui uma lista detalhada de recursos aproveitados no projeto, por exemplo:
-- URL de tutoriais/vídeos consultados
-- Créditos para colegas que colaboraram
+- [URL de tutoriais/vídeos consultados](https://codesnippet.io/github-api-tutorial)
+- ChatGPT para pesquisa
 
 
 #### Bastidores
 
 
-Preencha aqui um breve relato dos bastidores da realização deste exercício, com suas impressões.
+Para realizar o trabalho li o [Tutorial](https://codesnippet.io/github-api-tutorial), pesquisei usando o ChatGPT e analisei o [código exemplo](https://github.com/timmywheels/github-api-tutorial/blob/main/app.js). Além disso, estudei como funciona uma API e como utilizar com JavaScript. O código dado é bem parecido com o código final, que pode até ser considerado mais simples. O código adaptado se da basicamente por três connstantes que recebem a resposta do formulário: usuário, repositório e a lista de commits. Depois, é feita uma requisição usando *fetch* e se der certo, encontra no arquivo JSON da API a data e a mensagem do commit, caso contrário, exibe uma mensagem com o erro.
 
 
 
